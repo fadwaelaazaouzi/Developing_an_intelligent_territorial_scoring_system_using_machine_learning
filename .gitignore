@@ -1,0 +1,7 @@
+# Ignore the folder containing all data files
+data/
+
+# Ignore the auto-generated Jupyter Notebook checkpoints folder
+.ipynb_checkpoints/
+
+
