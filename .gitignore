@@ -4,4 +4,7 @@ data/
 # Ignore the auto-generated Jupyter Notebook checkpoints folder
 .ipynb_checkpoints/
 
+notebooks/.ipynb_checkpoints/
+
+
 
