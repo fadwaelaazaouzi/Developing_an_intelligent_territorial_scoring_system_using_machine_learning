@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/fadwa/hcp%20project/notebooks/mlruns/0/models/m-ebb829b2efbe4d5a851531b7cfdedb89/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.3.1
+model_id: m-ebb829b2efbe4d5a851531b7cfdedb89
+model_size_bytes: 8020982
+model_uuid: m-ebb829b2efbe4d5a851531b7cfdedb89
+prompts: null
+run_id: 2a1c2021023644dcafdf85c9e370fe75
+utc_time_created: '2025-08-25 22:26:40.424329'
