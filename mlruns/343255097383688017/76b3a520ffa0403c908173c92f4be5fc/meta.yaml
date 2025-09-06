@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/fadwa/hcp project/mlruns/343255097383688017/76b3a520ffa0403c908173c92f4be5fc/artifacts
+end_time: 1757163137596
+entry_point_name: ''
+experiment_id: '343255097383688017'
+lifecycle_stage: active
+run_id: 76b3a520ffa0403c908173c92f4be5fc
+run_name: caring-goat-111
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757163137460
+status: 3
+tags: []
+user_id: fadwa

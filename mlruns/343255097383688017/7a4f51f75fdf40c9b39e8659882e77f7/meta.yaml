@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/fadwa/hcp project/mlruns/343255097383688017/7a4f51f75fdf40c9b39e8659882e77f7/artifacts
+end_time: 1756329652371
+entry_point_name: ''
+experiment_id: '343255097383688017'
+lifecycle_stage: active
+run_id: 7a4f51f75fdf40c9b39e8659882e77f7
+run_name: capable-cat-850
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756329652204
+status: 3
+tags: []
+user_id: fadwa

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/fadwa/hcp project/mlruns/720666321411971468/0d204cdaaa3f4a05bde4806e2bf7fcd5/artifacts
+end_time: 1757163183067
+entry_point_name: ''
+experiment_id: '720666321411971468'
+lifecycle_stage: active
+run_id: 0d204cdaaa3f4a05bde4806e2bf7fcd5
+run_name: Random Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757163165140
+status: 3
+tags: []
+user_id: fadwa
