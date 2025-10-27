@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/fadwa/hcp project/mlruns/720666321411971468/models/m-dfeca2400a4c41bbb576b245eb2c0155/artifacts
+creation_timestamp: 1756821263284
+experiment_id: '720666321411971468'
+last_updated_timestamp: 1756821288268
+model_id: m-dfeca2400a4c41bbb576b245eb2c0155
+model_type: null
+name: linear_regression_model
+source_run_id: bd5761fd91cd4ef7842507dfd02e8ab6
+status: 2
+status_message: null

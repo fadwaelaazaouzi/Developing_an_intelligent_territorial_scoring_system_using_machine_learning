@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/fadwa/hcp project/mlruns/720666321411971468/models/m-5a1872df823b40ed9c1faf30b7620149/artifacts
+creation_timestamp: 1756821293180
+experiment_id: '720666321411971468'
+last_updated_timestamp: 1756821304673
+model_id: m-5a1872df823b40ed9c1faf30b7620149
+model_type: null
+name: random_forest_model
+source_run_id: d6293f4b947949d4b95c4e547ad5e383
+status: 2
+status_message: null

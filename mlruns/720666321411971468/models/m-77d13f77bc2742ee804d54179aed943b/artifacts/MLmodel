@@ -1,0 +1,173 @@
+artifact_path: file:///C:/Users/fadwa/hcp project/mlruns/720666321411971468/models/m-77d13f77bc2742ee804d54179aed943b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.3.1
+model_id: m-77d13f77bc2742ee804d54179aed943b
+model_size_bytes: 26113
+model_uuid: m-77d13f77bc2742ee804d54179aed943b
+prompts: null
+run_id: e69b83563bd24f1bb29939aa466e580b
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Taux d''analphab\u00e9tisme des 10 ans et
+    plus (%)_ENSEMBLE_TOTAL", "required": true}, {"type": "double", "name": "Taux
+    d''analphab\u00e9tisme des 10 ans et plus (%)_ENSEMBLE_RURALE", "required": true},
+    {"type": "double", "name": "Niveau d''\u00e9tudes dans l''enseignement g\u00e9n\u00e9ral
+    (%)_Sup\u00e9rieur_ENSEMBLE_TOTAL", "required": true}, {"type": "double", "name":
+    "Niveau d''\u00e9tudes dans l''enseignement g\u00e9n\u00e9ral (%)_Secondaire qualifiant_ENSEMBLE_TOTAL",
+    "required": true}, {"type": "double", "name": "Mode d\u2019\u00e9vacuation des
+    d\u00e9chets m\u00e9nagers (%)_Dans la nature_MENAGES_TOTAL", "required": true},
+    {"type": "double", "name": "Mode d\u2019\u00e9vacuation des d\u00e9chets m\u00e9nagers
+    (%)_Bac \u00e0 ordures de la commune_MENAGES_TOTAL", "required": true}, {"type":
+    "double", "name": "Mode d\u2019\u00e9vacuation des eaux us\u00e9es (%)_R\u00e9seau
+    public d''assainissement_MENAGES_TOTAL", "required": true}, {"type": "double",
+    "name": "Statut d''occupation du logement (%)_Locataire_MENAGES_TOTAL", "required":
+    true}, {"type": "double", "name": "Niveau d''\u00e9tudes dans l''enseignement
+    g\u00e9n\u00e9ral (%)_Sup\u00e9rieur_ENSEMBLE_URBAIN", "required": true}, {"type":
+    "double", "name": "Statut d''occupation du logement (%)_Propri\u00e9taire_MENAGES_RURALE",
+    "required": true}, {"type": "double", "name": "Type de logement (%)_Logement rural_MENAGES_TOTAL",
+    "required": true}, {"type": "double", "name": "\u00c2ge quinquennal (%)_65-69
+    ans_ENSEMBLE_RURALE", "required": true}, {"type": "double", "name": "Langues lues
+    et \u00e9crites par les alphab\u00e8tes de 10 ans et plus (non exclusives) (%)_Anglais_ENSEMBLE_TOTAL",
+    "required": true}, {"type": "double", "name": "\u00c2ge moyen singulier au mariage_ENSEMBLE_RURALE",
+    "required": true}, {"type": "double", "name": "\u00c2ge quinquennal (%)_75 ans
+    ou plus_ENSEMBLE_RURALE", "required": true}, {"type": "double", "name": "Taux
+    de pr\u00e9valence du handicap (%)_ENSEMBLE_RURALE", "required": true}, {"type":
+    "double", "name": "Mode d\u2019\u00e9vacuation des d\u00e9chets m\u00e9nagers
+    (%)_Bac \u00e0 ordures de la commune_MENAGES_URBAIN", "required": true}, {"type":
+    "double", "name": "Mode d\u2019\u00e9vacuation des eaux us\u00e9es (%)_R\u00e9seau
+    public d''assainissement_MENAGES_URBAIN", "required": true}, {"type": "double",
+    "name": "Niveau d''\u00e9tudes dans l''enseignement g\u00e9n\u00e9ral (%)_Secondaire
+    coll\u00e9gial_ENSEMBLE_TOTAL", "required": true}, {"type": "double", "name":
+    "Descendance finale des femmes_ENSEMBLE_RURALE", "required": true}, {"type": "double",
+    "name": "Statut d''occupation du logement (%)_Locataire_MENAGES_URBAIN", "required":
+    true}, {"type": "double", "name": "Statut professionnel des actifs occup\u00e9s
+    de 15 ans et plus (%)_Employeur_ENSEMBLE_URBAIN", "required": true}, {"type":
+    "double", "name": "Statut professionnel des actifs occup\u00e9s de 15 ans et plus
+    (%)_Salari\u00e9 du secteur priv\u00e9_ENSEMBLE_URBAIN", "required": true}, {"type":
+    "double", "name": "Indicateur conjoncturel de f\u00e9condit\u00e9_ENSEMBLE_RURALE",
+    "required": true}, {"type": "double", "name": "\u00c2ge du logement (%)_50 ans
+    ou plus_MENAGES_RURALE", "required": true}, {"type": "double", "name": "\u00c2ge
+    quinquennal (%)_65-69 ans_ENSEMBLE_URBAIN", "required": true}, {"type": "double",
+    "name": "Type de logement (%)_Appartement_MENAGES_TOTAL", "required": true}, {"type":
+    "double", "name": "Statut professionnel des actifs occup\u00e9s de 15 ans et plus
+    (%)_Salari\u00e9 du secteur public_ENSEMBLE_URBAIN", "required": true}, {"type":
+    "double", "name": "\u00c2ge du logement (%)_Moins de 10 ans_MENAGES_URBAIN", "required":
+    true}, {"type": "double", "name": "Disponibilit\u00e9 des \u00e9l\u00e9ments essentiels
+    de confort (%)_ W.-C._MENAGES_RURALE", "required": true}, {"type": "double", "name":
+    "\u00c2ge du logement (%)_10-19 ans_MENAGES_URBAIN", "required": true}, {"type":
+    "double", "name": "Niveau d''\u00e9tudes dans l''enseignement g\u00e9n\u00e9ral
+    (%)_Pr\u00e9scolaire_ENSEMBLE_URBAIN", "required": true}, {"type": "double", "name":
+    "Mode d\u2019\u00e9vacuation des eaux us\u00e9es (%)_Autre_MENAGES_TOTAL", "required":
+    true}, {"type": "double", "name": "Disponibilit\u00e9 des \u00e9l\u00e9ments essentiels
+    de confort (%)_Pi\u00e8ce d''eau_MENAGES_TOTAL", "required": true}, {"type": "double",
+    "name": "Statut professionnel des actifs occup\u00e9s de 15 ans et plus (%)_Ind\u00e9pendant_ENSEMBLE_URBAIN",
+    "required": true}, {"type": "double", "name": "Statut d''occupation du logement
+    (%)_Propri\u00e9taire_MENAGES_TOTAL", "required": true}, {"type": "double", "name":
+    "Nombre moyen de personnes par pi\u00e8ce d''habitation_MENAGES_RURALE", "required":
+    true}, {"type": "double", "name": "\u00c2ge quinquennal (%)_20-24 ans_ENSEMBLE_RURALE",
+    "required": true}, {"type": "double", "name": "Statut professionnel des actifs
+    occup\u00e9s de 15 ans et plus (%)_Ind\u00e9pendant_ENSEMBLE_RURALE", "required":
+    true}, {"type": "double", "name": "Statut professionnel des actifs occup\u00e9s
+    de 15 ans et plus (%)_Coop\u00e9rateur/Associ\u00e9_ENSEMBLE_URBAIN", "required":
+    true}, {"type": "double", "name": "\u00c2ge du logement (%)_20-49 ans_MENAGES_RURALE",
+    "required": true}, {"type": "double", "name": "Statut d''occupation du logement
+    (%)_Autre_MENAGES_URBAIN", "required": true}, {"type": "double", "name": "\u00c2ge
+    du logement (%)_10-19 ans_MENAGES_TOTAL", "required": true}, {"type": "double",
+    "name": "Type de logement (%)_Villa / \u00c9tage\u00a0de villa_MENAGES_TOTAL",
+    "required": true}, {"type": "double", "name": "Combustible de cuisson utilis\u00e9
+    (%)_\u00c9lectricit\u00e9_MENAGES_URBAIN", "required": true}, {"type": "double",
+    "name": "Langues lues et \u00e9crites par les alphab\u00e8tes de 10 ans et plus
+    (non exclusives) (%)_Fran\u00e7ais_ENSEMBLE_RURALE", "required": true}, {"type":
+    "double", "name": "Taux d''activit\u00e9 des 15 ans et plus (%)_ENSEMBLE_TOTAL",
+    "required": true}, {"type": "double", "name": "\u00c2ge quinquennal (%)_30-34
+    ans_ENSEMBLE_TOTAL", "required": true}, {"type": "double", "name": "Type de logement
+    (%)_Villa / \u00c9tage\u00a0de villa_MENAGES_URBAIN", "required": true}, {"type":
+    "double", "name": "Combustible de cuisson utilis\u00e9 (%)_Gaz_MENAGES_RURALE",
+    "required": true}, {"type": "double", "name": "\u00c9tat matrimonial des 15 ans
+    et plus (%)_Divorc\u00e9.e_ENSEMBLE_TOTAL", "required": true}, {"type": "double",
+    "name": "Statut professionnel des actifs occup\u00e9s de 15 ans et plus (%)_Salari\u00e9
+    du secteur priv\u00e9_ENSEMBLE_RURALE", "required": true}, {"type": "double",
+    "name": "Taux de ch\u00f4mage (%)_ENSEMBLE_RURALE", "required": true}, {"type":
+    "double", "name": "Langues lues et \u00e9crites par les alphab\u00e8tes de 10
+    ans et plus (non exclusives) (%)_Fran\u00e7ais_ENSEMBLE_TOTAL", "required": true},
+    {"type": "double", "name": "Taux de pr\u00e9valence du handicap (%)_ENSEMBLE_TOTAL",
+    "required": true}, {"type": "double", "name": "Combustible de cuisson utilis\u00e9
+    (%)_Gaz_MENAGES_TOTAL", "required": true}, {"type": "double", "name": "\u00c2ge
+    quinquennal (%)_25-29 ans_ENSEMBLE_TOTAL", "required": true}, {"type": "double",
+    "name": "\u00c2ge quinquennal (%)_75 ans ou plus_ENSEMBLE_TOTAL", "required":
+    true}, {"type": "double", "name": "Statut professionnel des actifs occup\u00e9s
+    de 15 ans et plus (%)_Aide familial_ENSEMBLE_URBAIN", "required": true}, {"type":
+    "double", "name": "Disponibilit\u00e9 des \u00e9l\u00e9ments essentiels de confort
+    (%)_Eau courante_MENAGES_TOTAL", "required": true}, {"type": "double", "name":
+    "Statut professionnel des actifs occup\u00e9s de 15 ans et plus (%)_Apprenti_ENSEMBLE_URBAIN",
+    "required": true}, {"type": "double", "name": "Mode d\u2019\u00e9vacuation des
+    d\u00e9chets m\u00e9nagers (%)_Camion de la commune / Camion priv\u00e9_MENAGES_TOTAL",
+    "required": true}, {"type": "double", "name": "Niveau d''\u00e9tudes dans l''enseignement
+    g\u00e9n\u00e9ral (%)_Secondaire coll\u00e9gial_ENSEMBLE_RURALE", "required":
+    true}, {"type": "double", "name": "\u00c2ge quinquennal (%)_20-24 ans_ENSEMBLE_TOTAL",
+    "required": true}, {"type": "double", "name": "\u00c2ge quinquennal (%)_70-74
+    ans_ENSEMBLE_TOTAL", "required": true}, {"type": "double", "name": "\u00c2ge du
+    logement (%)_Moins de 10 ans_MENAGES_TOTAL", "required": true}, {"type": "double",
+    "name": "\u00c2ge quinquennal (%)_35-39 ans_ENSEMBLE_TOTAL", "required": true},
+    {"type": "double", "name": "Statut professionnel des actifs occup\u00e9s de 15
+    ans et plus (%)_Salari\u00e9 du secteur public_ENSEMBLE_TOTAL", "required": true},
+    {"type": "double", "name": "Langues locales utilis\u00e9es (non exclusives) (%)_Darija_ENSEMBLE_RURALE",
+    "required": true}, {"type": "double", "name": "\u00c9tat matrimonial des 15 ans
+    et plus (%)_C\u00e9libataire_ENSEMBLE_TOTAL", "required": true}, {"type": "double",
+    "name": "Mode d\u2019\u00e9vacuation des d\u00e9chets m\u00e9nagers (%)_Camion
+    de la commune / Camion priv\u00e9_MENAGES_URBAIN", "required": true}, {"type":
+    "double", "name": "Population de 7-12 ans_ENSEMBLE_URBAIN", "required": true},
+    {"type": "double", "name": "Disponibilit\u00e9 des \u00e9l\u00e9ments essentiels
+    de confort (%)_Cuisine_MENAGES_TOTAL", "required": true}, {"type": "double", "name":
+    "Statut professionnel des actifs occup\u00e9s de 15 ans et plus (%)_Autre_ENSEMBLE_URBAIN",
+    "required": true}, {"type": "double", "name": "\u00c2ge quinquennal (%)_40-44
+    ans_ENSEMBLE_TOTAL", "required": true}, {"type": "double", "name": "\u00c9tat
+    matrimonial des 15 ans et plus (%)_Veuf.ve_ENSEMBLE_TOTAL", "required": true},
+    {"type": "double", "name": "Descendance finale des femmes_ENSEMBLE_TOTAL", "required":
+    true}, {"type": "double", "name": "\u00c9tat matrimonial des 15 ans et plus (%)_Mari\u00e9.e_ENSEMBLE_TOTAL",
+    "required": true}, {"type": "double", "name": "Disponibilit\u00e9 des \u00e9l\u00e9ments
+    essentiels de confort (%)_ W.-C._MENAGES_TOTAL", "required": true}, {"type": "double",
+    "name": "Langues locales utilis\u00e9es (non exclusives) (%)_Darija_ENSEMBLE_TOTAL",
+    "required": true}, {"type": "double", "name": "Langues locales utilis\u00e9es
+    (non exclusives) (%)_Tachelhit_ENSEMBLE_RURALE", "required": true}, {"type": "double",
+    "name": "\u00c9tat matrimonial des 15 ans et plus (%)_Divorc\u00e9.e_ENSEMBLE_RURALE",
+    "required": true}, {"type": "double", "name": "Statut professionnel des actifs
+    occup\u00e9s de 15 ans et plus (%)_Employeur_ENSEMBLE_TOTAL", "required": true},
+    {"type": "double", "name": "Distance moyenne des logements \u00e0 la route goudronn\u00e9e
+    (Km)_MENAGES_RURALE", "required": true}, {"type": "double", "name": "Langues locales
+    utilis\u00e9es (non exclusives) (%)_Tachelhit_ENSEMBLE_URBAIN", "required": true},
+    {"type": "double", "name": "\u00c2ge du logement (%)_50 ans ou plus_MENAGES_URBAIN",
+    "required": true}, {"type": "double", "name": "Type de logement (%)_Autre_MENAGES_URBAIN",
+    "required": true}, {"type": "double", "name": "Indicateur conjoncturel de f\u00e9condit\u00e9_ENSEMBLE_TOTAL",
+    "required": true}, {"type": "double", "name": "Combustible de cuisson utilis\u00e9
+    (%)_Autre_MENAGES_URBAIN", "required": true}, {"type": "double", "name": "Mode
+    d\u2019\u00e9vacuation des eaux us\u00e9es (%)_Fosse septique_MENAGES_RURALE",
+    "required": true}, {"type": "double", "name": "Statut professionnel des actifs
+    occup\u00e9s de 15 ans et plus (%)_Salari\u00e9 du secteur public_ENSEMBLE_RURALE",
+    "required": true}, {"type": "double", "name": "Niveau d''\u00e9tudes dans l''enseignement
+    g\u00e9n\u00e9ral (%)_Pr\u00e9scolaire_ENSEMBLE_RURALE", "required": true}, {"type":
+    "double", "name": "Langues lues et \u00e9crites par les alphab\u00e8tes de 10
+    ans et plus (non exclusives) (%)_Amazigh (Tifinagh)_ENSEMBLE_URBAIN", "required":
+    true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-09-06 12:52:22.852748'

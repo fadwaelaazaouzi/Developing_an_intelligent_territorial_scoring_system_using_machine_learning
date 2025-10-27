@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/fadwa/hcp project/mlruns/343255097383688017/cdc7ca8b907d4c349e60827b5cebbdb5/artifacts
+end_time: 1756329659553
+entry_point_name: ''
+experiment_id: '343255097383688017'
+lifecycle_stage: active
+run_id: cdc7ca8b907d4c349e60827b5cebbdb5
+run_name: debonair-stork-519
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756329659446
+status: 3
+tags: []
+user_id: fadwa

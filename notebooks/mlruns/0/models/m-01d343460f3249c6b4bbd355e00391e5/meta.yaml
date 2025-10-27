@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/fadwa/hcp%20project/notebooks/mlruns/0/models/m-01d343460f3249c6b4bbd355e00391e5/artifacts
+creation_timestamp: 1756159614757
+experiment_id: '0'
+last_updated_timestamp: 1756159650313
+model_id: m-01d343460f3249c6b4bbd355e00391e5
+model_type: null
+name: model
+source_run_id: 7757b6190a2f49e1a34bf9bcabf560d9
+status: 2
+status_message: null

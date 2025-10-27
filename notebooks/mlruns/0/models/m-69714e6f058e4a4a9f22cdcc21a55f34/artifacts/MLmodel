@@ -1,0 +1,86 @@
+artifact_path: file:///C:/Users/fadwa/hcp%20project/notebooks/mlruns/0/models/m-69714e6f058e4a4a9f22cdcc21a55f34/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.3.1
+model_id: m-69714e6f058e4a4a9f22cdcc21a55f34
+model_size_bytes: 8027602
+model_uuid: m-69714e6f058e4a4a9f22cdcc21a55f34
+prompts: null
+run_id: 09aa710c16d04ddf81ddb822eed5522c
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Taux d''analphab\u00e9tisme des 10 ans et
+    plus (%)_FEMMES_TOTAL", "required": true}, {"type": "double", "name": "Niveau
+    d''\u00e9tudes dans l''enseignement g\u00e9n\u00e9ral (%)_Secondaire qualifiant._FEMMES_TOTAL",
+    "required": true}, {"type": "double", "name": "Taux d''analphab\u00e9tisme des
+    15 ans et plus (%)_FEMMES_RURALE", "required": true}, {"type": "double", "name":
+    "Niveau d''\u00e9tudes dans l''enseignement g\u00e9n\u00e9ral (%)_Sup\u00e9rieur_ENSEMBLE_TOTAL",
+    "required": true}, {"type": "double", "name": "Taux d''analphab\u00e9tisme des
+    10 ans et plus (%)_HOMMES_TOTAL", "required": true}, {"type": "double", "name":
+    "Niveau d''\u00e9tudes dans l''enseignement g\u00e9n\u00e9ral (%)_Secondaire coll\u00e9gial._FEMMES_TOTAL",
+    "required": true}, {"type": "double", "name": "Mode d\u2019\u00e9vacuation des
+    d\u00e9chets m\u00e9nagers (%)_Dans la nature_MENAGES_TOTAL", "required": true},
+    {"type": "double", "name": "Mode d\u2019\u00e9vacuation des d\u00e9chets m\u00e9nagers
+    (%)_Bac \u00e0 ordures de la commune_MENAGES_TOTAL", "required": true}, {"type":
+    "double", "name": "Mode d\u2019\u00e9vacuation des eaux us\u00e9es (%)_R\u00e9seau
+    public d''assainissement_MENAGES_TOTAL", "required": true}, {"type": "double",
+    "name": "Statut d''occupation du logement (%)_Locataire_MENAGES_TOTAL", "required":
+    true}, {"type": "double", "name": "Niveau d''\u00e9tudes dans l''enseignement
+    g\u00e9n\u00e9ral (%)_Aucun niveau d''\u00e9tudes._HOMMES_TOTAL", "required":
+    true}, {"type": "double", "name": "Taux d''activit\u00e9 des 15 ans et plus (%)_FEMMES_URBAIN",
+    "required": true}, {"type": "double", "name": "Niveau d''\u00e9tudes dans l''enseignement
+    g\u00e9n\u00e9ral (%)_Sup\u00e9rieur._HOMMES_URBAIN", "required": true}, {"type":
+    "double", "name": "Statut d''occupation du logement (%)_Propri\u00e9taire_MENAGES_RURALE",
+    "required": true}, {"type": "double", "name": "Type de logement (%)_Logement rural_MENAGES_TOTAL",
+    "required": true}, {"type": "double", "name": "\u00c2ge quinquennal (%)_65-69
+    ans_ENSEMBLE_RURALE", "required": true}, {"type": "double", "name": "\u00c9tat
+    matrimonial des 15 ans et plus (%)_Veuf.ve._FEMMES_RURALE", "required": true},
+    {"type": "double", "name": "\u00c2ge quinquennal (%)_70-74 ans._HOMMES_RURALE",
+    "required": true}, {"type": "double", "name": "Langues lues et \u00e9crites par
+    les alphab\u00e8tes de 10 ans et plus (non exclusives) (%)_Anglais_ENSEMBLE_TOTAL",
+    "required": true}, {"type": "double", "name": "Taux de pr\u00e9valence du handicap
+    (%)_HOMMES_RURALE", "required": true}, {"type": "double", "name": "\u00c2ge moyen
+    singulier au mariage_ENSEMBLE_RURALE", "required": true}, {"type": "double", "name":
+    "\u00c2ge quinquennal (%)_75 ans ou plus_ENSEMBLE_RURALE", "required": true},
+    {"type": "double", "name": "Mode d\u2019\u00e9vacuation des d\u00e9chets m\u00e9nagers
+    (%)_Bac \u00e0 ordures de la commune_MENAGES_URBAIN", "required": true}, {"type":
+    "double", "name": "Mode d\u2019\u00e9vacuation des eaux us\u00e9es (%)_R\u00e9seau
+    public d''assainissement_MENAGES_URBAIN", "required": true}, {"type": "double",
+    "name": "\u00c2ge quinquennal (%)_15-19 ans._FEMMES_RURALE", "required": true},
+    {"type": "double", "name": "\u00c2ge quinquennal (%)_70-74 ans._FEMMES_RURALE",
+    "required": true}, {"type": "double", "name": "Statut professionnel des actifs
+    occup\u00e9s de 15 ans et plus (%)_Employeur._HOMMES_URBAIN", "required": true},
+    {"type": "double", "name": "Statut d''occupation du logement (%)_Locataire_MENAGES_URBAIN",
+    "required": true}, {"type": "double", "name": "Statut professionnel des actifs
+    occup\u00e9s de 15 ans et plus (%)_Salari\u00e9 du secteur priv\u00e9_ENSEMBLE_URBAIN",
+    "required": true}, {"type": "double", "name": "\u00c2ge quinquennal (%)_55-59
+    ans._HOMMES_RURALE", "required": true}, {"type": "double", "name": "Indicateur
+    conjoncturel de f\u00e9condit\u00e9_ENSEMBLE_RURALE", "required": true}, {"type":
+    "double", "name": "\u00c2ge du logement (%)_50 ans ou plus_MENAGES_RURALE", "required":
+    true}, {"type": "double", "name": "\u00c2ge quinquennal (%)_65-69 ans._HOMMES_URBAIN",
+    "required": true}, {"type": "double", "name": "Type de logement (%)_Appartement_MENAGES_TOTAL",
+    "required": true}, {"type": "double", "name": "\u00c9tat matrimonial des 15 ans
+    et plus (%)_Divorc\u00e9.e._HOMMES_URBAIN", "required": true}, {"type": "double",
+    "name": "\u00c9tat matrimonial des 15 ans et plus (%)_Veuf.ve._HOMMES_RURALE",
+    "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-08-25 22:27:59.942766'

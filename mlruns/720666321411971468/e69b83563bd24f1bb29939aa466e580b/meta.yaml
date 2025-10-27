@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/fadwa/hcp project/mlruns/720666321411971468/e69b83563bd24f1bb29939aa466e580b/artifacts
+end_time: 1757163165048
+entry_point_name: ''
+experiment_id: '720666321411971468'
+lifecycle_stage: active
+run_id: e69b83563bd24f1bb29939aa466e580b
+run_name: Baseline Linear Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757163142582
+status: 3
+tags: []
+user_id: fadwa
